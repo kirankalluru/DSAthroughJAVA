@@ -1,7 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
-
-
 public class ArraylistExample {
 
     public static void main(String[] args) {
