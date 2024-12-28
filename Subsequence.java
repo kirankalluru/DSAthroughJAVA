@@ -20,5 +20,6 @@ public class Subsequence {
     }
     
     
-    
+    // output
 
+    // [K, KI, KIR, KIRA, KIRAN, I, IR, IRA, IRAN, R, RA, RAN, A, AN, N]

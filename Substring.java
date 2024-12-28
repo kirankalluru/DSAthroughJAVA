@@ -18,4 +18,22 @@ public class Substring {
     }
 }
 
+// output
+
+// K 
+// K I 
+// K I R 
+// K I R A 
+// K I R A N 
+// I 
+// I R 
+// I R A 
+// I R A N 
+// R 
+// R A 
+// R A N 
+// A 
+// A N 
+// N 
+
 
