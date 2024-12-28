@@ -1,7 +1,13 @@
 package SlidingWindow;
 
+import java.util.Scanner;
+
 public class MaxSubarraySum {
     public static void main(String[] args) {
+        int sl;
+        System.out.print("Enter Maximum subarray sum of size: ");
+        Scanner sc = new Scanner(System.in);
+        sl = sc.nextInt();
         int arr[] = {5,8,8,3,5};
         int ans = 0;
         int l = 0;
@@ -9,7 +15,7 @@ public class MaxSubarraySum {
 
         for (int i = 0; i < arr.length; i++) {
             temp += arr[i];
-            if (i-l == 2) {
+            if (i-l == sl-1) {
                 ans = Math.max(ans, temp);   
 
                 //slide the window by removing left most element 
@@ -18,7 +24,7 @@ public class MaxSubarraySum {
             }
 
         }
-        System.out.println(ans);
+        System.out.println("max of Sum of Subarray length "+sl+" is "+ans);
     }
     
 }
